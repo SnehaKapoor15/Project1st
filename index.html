@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ecommerce Basics</title>
+    <script src="https://kit.fontawesome.com/d6922bd0ba.js" crossorigin="anonymous"></script>
+<style>
+    .header{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        justify-content: center;
+        border: 2px solid rgb(5, 5, 106);
+        background-color: blue;
+    }
+     .header-logo{
+        display: flex;
+        align-items: center;
+        color: orange;
+    }
+        .eshop{
+            color: aliceblue;
+        }
+
+     .header-nav{
+        display:flex;
+        align-items: center;
+     }
+     .header-search{
+        padding:2px;
+        margin: 2px;
+     }
+     .button{
+        background-color: orange;
+        cursor: pointer;
+     }
+     .section2{
+        justify-content:flex-end;
+        order:3;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+     }
+     .add{
+        background-color: orange;
+     }
+</style>
+
+</head>
+<body>
+      <div class="header">
+
+        <div class="header-logo">
+            <i class="fa-solid fa-store" class="logo"></i>
+            <h1 class="eshop">eShop</h1>
+        </div>
+        <div class="header-search">
+             <input type="text">
+             <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-nav">
+
+            <div class="header-nav-signIn">
+                <p>Hello Guest</p>
+                <h4>Sign In</h4>
+            </div>
+            <div class="header-nav-shop">
+                 <p>Your</p>
+                 <h4>Shop</h4>
+            </div>
+            <div class="header-nav-basket">
+                <i class="fa-regular fa-basket-shopping"></i>
+                <h4>0</h4>
+            </div>
+       
+        </div>
+      
+      </div>
+      <div class="section1">
+        <table>
+            <tr class="section1-img1">
+                <img src="#" alt="Ecommerce">
+                
+            </tr>
+        </table>
+      </div>
+      <div class="section2">
+        <table>
+            <tr class="section1-img1">
+                <img src="#" alt="ladies bag">
+                <input type="button" value="Add to Basket" class="add">
+            
+            </tr>
+        </table>
+        <div class="section1">
+            <table>
+                <tr class="section1-img1">
+                    <img src="#" alt="microwave">
+                    <input type="button" value="Add to Basket" class ="add">
+                
+                </tr>
+            </table>
+            <div class="section1">
+                <table>
+                    <tr class="section1-img1">
+                       <tc> <img src="#" alt="comic book">
+                        <input type="button" value="Add to Basket" class="add">
+                    </tc>
+                    </tr>
+                </table>
+</body>
+</html>
